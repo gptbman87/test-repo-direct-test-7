@@ -34,14 +34,10 @@ const initialNodes: Node[] = [
 ];
 
 const initialEdges: Edge[] = [
-    { id: 'e1-2', source: '1', target: '2', animated: true, style: { stroke: '#5e5e5e' } },
-    { id: 'e2-3', source: '2', target: '3', animated: true, style: { stroke: '#5e5e5e' } },
-    { id: 'e2-4', source: '2', target: '4', animated: true, style: { stroke: '#5e5e5e' } },
+  { id: 'e1-2', source: '1', target: '2', animated: true, style: { stroke: '#5e5e5e' } },
+  { id: 'e2-3', source: '2', target: '3', animated: true, style: { stroke: '#5e5e5e' } },
+  { id: 'e2-4', source: '2', target: '4', animated: true, style: { stroke: '#5e5e5e' } },
 ];
-
-// Define nodeTypes and edgeTypes as global constants outside the component
-const nodeTypes = {};
-const edgeTypes = {};
 
 const FlowCanvas = () => {
   const [nodes, setNodes] = useState<Node[]>(initialNodes);
@@ -68,8 +64,6 @@ const FlowCanvas = () => {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
-        nodeTypes={nodeTypes}
-        edgeTypes={edgeTypes}
         fitView
       >
         <Controls />
