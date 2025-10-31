@@ -1,0 +1,6 @@
+- We have just configured the Gemini CLI to connect to the OpenMemory MCP server.
+- The user wants me to have persistent memory.
+- The user's favorite color is blue.
+- User prefers dark mode.
+- The repository https://github.com/gptbman87/test-repo-direct-test-7 has been created.
+- The purpose of the repository is to serve as a stable, external memory for our project, starting with the MCP wishlist.
