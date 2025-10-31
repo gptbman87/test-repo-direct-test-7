@@ -1,0 +1,52 @@
+.flow-canvas {
+  flex-grow: 1;
+  height: 100vh;
+  background-color: #121212;
+}
+
+/* Custom Node Styles */
+.react-flow__node {
+  border-radius: 8px;
+  font-size: 14px;
+  border: 1px solid #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.react-flow__node:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.react-flow__node-input,
+.react-flow__node-default,
+.react-flow__node-output {
+  padding: 15px 25px;
+}
+
+.node-input {
+  background: #2a3a4a;
+  color: #cceeff;
+  border-color: #5a7a9a;
+}
+
+.node-default {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+.node-output {
+  background: #4a2a3a;
+  color: #ffcce0;
+  border-color: #9a5a7a;
+}
+
+/* Controls and Minimap */
+.react-flow__controls {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.react-flow__minimap {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
