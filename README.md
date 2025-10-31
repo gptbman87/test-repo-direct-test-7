@@ -24,3 +24,17 @@ This section logs the key facts and context I am currently holding.
 *   **User Goal:** The user wants me to have persistent memory. This repository is the primary mechanism for achieving that.
 *   **User Preferences:** The user's favorite color is blue. The user prefers dark mode.
 *   **Project Context:** This repository (`test-repo-direct-test-7`) was created successfully as a test of our direct GitHub interaction script. Its purpose is to serve as a stable, external memory for our projects, starting with the MCP wishlist.
+
+## 4. MCP Wishlist
+This list tracks desired MCP functionalities.
+
+1.  **GitHub Integration (✅ Completed):** Establish a reliable, script-based method for interacting with the GitHub API.
+2.  **Advanced Multi-Agent Orchestration UI:** A visual interface for designing, monitoring, and debugging complex multi-agent workflows.
+3.  **Real-time Collaborative Development:** Allow multiple users to leverage Gemini's assistance simultaneously on shared codebases.
+4.  **Automated Code Refactoring & Migration:** A dedicated tool to analyze and perform automated code transformations (e.g., framework updates, language migration).
+5.  **Interactive Debugging Assistant:** Integrate with debuggers to provide AI-powered insights during debugging sessions.
+6.  **Automated Test Case Generation & Maintenance:** Automatically generate and maintain unit, integration, and end-to-end tests based on code changes.
+7.  **Cloud-Native Deployment & Management:** Simplify deploying Gemini-powered agents as serverless functions or containers.
+8.  **Domain-Specific Language (DSL) Integration:** Allow users to define custom DSLs that Gemini can learn and use.
+9.  **Enhanced Security Analysis & Remediation:** Perform in-depth security analysis, identify vulnerabilities, and assist with automated patching.
+10. **Personalized Learning & Skill Development:** Act as a personalized coding tutor, identifying areas for improvement and providing learning resources.
